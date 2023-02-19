@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Work Sans', sans-serif;
+}
+
+
+.vcenter{
+	align-items: center;
+}
+.hbetween{
+	justify-content: space-between;
+}
+/* hero banner */
+
+.herobanner{
+	background-image: url(../images/herobanner.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 230px 0;
+}
+.herocontent{
+	
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.herocontent h1{
+	font-weight: 700;
+	font-size: 65px;
+	line-height: 76px;
+	text-align: center;
+	color: #FFFFFF;
+}
+.herocontent p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	margin: 20px 0 30px;
+}
+.herocontent a{
+	background: #FFFFFF;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: right;
+	color: #00AC11;
+	text-decoration: none;
+	padding: 20px 25px;
+	display: inline-block;
+}
+
+
+
+
+/* about me */
+
+.aboutmesection{
+	padding: 50px;
+}
+.container{
+	max-width: 1170px;
+	margin: 0 auto;
+}
+.flex{	
+	display: flex;
+	flex-wrap: wrap;
+}
+.column-2{
+	flex-basis: 50%;
+	max-width: 50%;
+	padding: 15px;
+}
+.padding-right{
+	padding-right: 136px;
+}
+.column-2 h2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	color: #151414;
+}
+.column-2 p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #444343;
+	margin: 20px 0;
+}
+.column-2 ul{
+	list-style: none;
+}
+.column-2 ul li{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #444343;
+	display: flex;
+	align-items: center;
+}
+.column-2 ul li img{
+	width: 24px;
+	margin-right: 10px;
+}
+.column-2 ul li img a{}
+.column-2 > img{
+	max-width: 100%;
+}
+
+
+
+
+/* my plans */
+
+.planssection{
+	padding: 50px 0;
+	text-align: center;
+}
+.planssection h2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: center;
+	color: #151414;
+	margin-block: 50px;
+}
+.column-4{
+	flex-basis: 25%;
+	max-width: 25%;
+}
+.column-4 img{
+	width: 90px;
+}
+.column-4 h3{
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 35px;
+	text-align: center;
+	color: #151414;
+	margin: 24px 0 15px;
+}
+.column-4 p{
+	font-weight: 500;
+	font-size: 25px;
+	line-height: 29px;
+	text-align: center;
+	color: #737272;
+}
+
+
+
+
+/* Call Now */
+.callnowsection{
+	background-image: url(../images/banner-2.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-radius: 10px;
+	margin-bottom: 100px;
+
+}
+.callnowbox{
+	padding: 60px;
+	text-align: right;
+	background: linear-gradient(90deg, rgba(0, 95, 172, 0) 0%, #009349 100%);
+}
+.callnowbox h2{
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 47px;
+	text-align: right;
+	color: #FFFFFF;
+	padding-left: 600px;
+    margin-bottom: 11px;
+}
+.callnowbox a{
+
+	background: #FFFFFF;
+	border-radius: 5px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 23px;
+	text-align: right;
+	color: #00AC11;
+	text-decoration: none;
+	padding: 20px 25px;
+	display: inline-block;
+}
+
+
+
+/* Footer */
+
+footer{
+	background-color: #27AE60;
+	padding: 130px 0;
+}
+.footerinfo{
+	flex-basis: 40%;
+	max-width: 40%;
+}
+.footerinfo h2{
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 53px;
+	color: #F8F8F8;
+	margin-bottom: 16px;
+}
+.footerinfo p{
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #FFFFFF;
+	margin-bottom: 15px;
+}
+.sociallink{
+    list-style: none;
+    display: flex;
+}
+.sociallink li{}
+.sociallink li a{
+    width: 45px;
+    background-color: #fff;
+    display: flex;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 27px;
+    margin-right: 10px;
+}
+.sociallink li a:hover{}
+
+
+.subscription{
+
+	flex-basis: 30%;
+	max-width: 30%;
+}
+.subscription h2{
+	font-weight: 700;
+	font-size: 45px;
+	line-height: 53px;
+	color: #F8F8F8;
+}
+.subscription form{}
+.subscription form input[type="text"]{
+	border: 1px solid #FFFFFF;
+	border-radius: 8px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #F3F3F3;
+	padding: 20px;
+	width: 100%;
+	margin-bottom: 20px;
+	background-color: transparent;
+
+}
+.subscription form input[type="submit"]{
+	background: #009355;
+	border-radius: 8px;
+	font-weight: 600;
+	font-size: 20px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding: 20px;
+	border: 0;
+}
+::placeholder{
+	color: white;
+}
+
+:focus-visible {
+    outline: none;
+}
+
+/*****************media**************/
+
+@media(max-width:1400px){
+	.container{
+		width: 100%;
+	}
+	.herocontent {;
+    padding: 0 308px;}
+}
+@media(max-width:1200px){
+	.container{
+		width: calc(100% - 100px);
+	}
+	.herobanner {
+    padding: 119px 0;
+	}
+	.herocontent {
+    padding: 0 150px;
+	}
+}
+
+
+@media(max-width:992px){
+	.container{
+		width: calc(100% - 100px);
+	}
+	.herocontent {
+    padding: 0 100px;
+	}
+}
+
+@media(max-width:768px){
+	.container{
+		width: calc(100% - 100px);
+	}
+	.padding-right {
+   		padding-right: 0px;
+	}
+	.column-2 {
+	    flex-basis: 100%;
+	    max-width: 100%;
+	    padding: 15px;
+	}
+	.column-2 ul li {
+	    justify-content: center;
+	}
+	.callnowsection {
+	    margin-bottom: 45px;
+	}
+	.callnowbox h2 {
+	    padding-left: 0px;
+	}
+	footer {
+	    padding: 38px 0;
+	}
+	.subscription h2, .footerinfo h2 {
+	    font-size: 35px;
+	    line-height: 51px;
+	}
+	.footerinfo p {
+    font-size: 16px;
+    line-height: 26px;
+}
+}
+
+
+@media(max-width:575px){
+
+	.container{
+		width: 100%;
+	}
+	.herocontent h1 {
+   		font-size: 49px;
+		line-height: 54px;
+	}
+
+	.callnowbox h2 {
+    font-size: 29px;
+    line-height: 35px;
+    padding-left: 21px;
+}
+
+
+.aboutmesection {
+    padding: 20px;
+}
+
+.column-4 {
+    flex-basis: 50%;
+    max-width: 50%;
+    margin-bottom: 32px;
+}
+.planssection h2 {
+	font-size: 33px;
+    line-height: 43px;
+    margin-block: 0px;
+    margin-bottom: 30px;
+}
+
+.planssection {
+    padding: 0px 0;
+    text-align: center;
+}
+
+	footer {
+	    padding: 50px 15px;
+	    text-align: center;
+	}
+	.footerinfo, .subscription {
+	    flex-basis: 100%;
+	    max-width: 100%;
+	}
+	.footerinfo h2, .subscription h2 {
+	    font-size: 30px;
+	    line-height: 35px;
+	    margin: 20px 0;
+	}
+	.sociallink {
+	    justify-content: center;
+	}
+	.herobanner {
+    padding: 65px 0;
+}	.column-2 {
+    flex-basis: 100%;
+    max-width: 100%;
+	}
+	.padding-right {
+    padding-right: 0px;
+	}
+}
+
